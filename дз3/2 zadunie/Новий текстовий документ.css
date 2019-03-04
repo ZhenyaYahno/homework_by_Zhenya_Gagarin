@@ -1,0 +1,33 @@
+body {
+    background: #dfe499;
+}
+.osnova {
+    width: 1000px;
+    margin: auto;
+}
+.hr1 {
+    width: 1000px;
+    color: red; 
+    background-color: red;
+}
+#yellow {
+    color: yellow;
+}
+.silka_yellow {
+    color: yellow; 
+}
+.fotomaker {
+    width: 120px;
+    margin-left: 20px; 
+}
+#whiteHR {
+    color: black; 
+    background-color: black;
+    width: 160px;
+    margin-left: 0px;
+}
+.screnshot {
+   width: 800px;
+   text-align: center;
+   margin-left: 100px;
+}

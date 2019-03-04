@@ -1,0 +1,61 @@
+.content {
+    margin: auto;
+    width: 1000px;
+    
+}
+.heder {
+    background-color: silver;
+    padding: 10px
+}
+.main {
+    background-color: blue;
+    height: 500px;
+    padding: 10px;
+}
+.footer {
+    background-color: red;
+    height: 200px;
+}
+.heder div {
+    border: 1px solid black;
+    padding: 5px;
+    display: inline-block;
+}
+
+.heder .menu {
+    width: 65%;
+    padding: 10px;
+    text-align: right;
+}
+.heder .logo div{
+    border: 1px solid black;
+    padding: 0%;
+
+}
+.menu{
+    padding: 5px;
+    border: 1px solid black;
+}
+.menu span {
+    border: 1px solid black;
+}
+.heder .logo{
+    width: 30%;
+    padding: 9px;
+
+}
+.main div{
+    border: 1px solid black;
+    height: 100%;
+    display: inline-block;
+}
+.main .left{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 32%;
+}
+.main .right{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 66%;
+}

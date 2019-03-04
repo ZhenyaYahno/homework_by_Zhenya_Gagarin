@@ -1,0 +1,110 @@
+@media (min-width: 960px) and (max-width: 1380px) {
+    main .Intro-text{
+        width: 100%;
+    }
+    .sidebar .top{
+        
+        height: 30%;
+    
+}
+.sidebar .top img{
+    float: right;
+    }
+.sidebar nav{
+    margin-top: 10px;
+    height: 50%;
+}
+.sidebar nav .div{
+    margin: 10px 0px;
+}
+.sidebar nav .div .div-right{
+    padding-top: 13px;
+}
+.sidebar nav .div .div-left{
+    padding-top: 13px;
+}
+.sidebar .bottom{
+    
+    padding: 70px 50px 20px 40px;
+}
+.sidebar .bottom div{
+    margin: 0 4px;
+}
+}
+@media (min-width: 401px) and (max-width: 960px){
+
+    main .Intro-text{
+        
+        padding: 65px 10px 0px 10px;
+        font-size: 21px;
+    }
+    .middle-down{
+        height: 760px;
+    }
+
+}
+@media (max-width: 400px){
+
+    main .Intro-text{
+        width: 100%;
+        padding: 65px 35px 5px 35px;
+        font-size: 19px;
+    }
+    .middle-down{
+        height: 760px;
+    }
+    .middle-down .middle-down-TEXT{
+        padding-top: 25px;
+    }
+    
+    main .down form .input-flex-left input[type="text"], main .down form .input-flex-right input[type="email"], main .down form .input-down textarea {
+        font-size: 20px;
+    }
+    main .middle-down-text img {
+        height: 200px;
+    }
+}
+@media (max-width: 960px){
+    .sidebar{
+        display: block;
+        width: 196px;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: -196px;
+        z-index: 1111;
+        
+        
+    }
+    .sidebar .bottom {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 50px 20px 0px 20px;     
+ }
+    .sidebar .top{        
+      height: 30%;
+     }
+     .sidebar .top img{
+     float: right;
+     }
+      .sidebar nav{
+       margin-top: 10px;
+        height: 50%;
+     }  
+     main{
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 0px;
+     }
+    .click-sidebar{
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+    }
+    
+   
+}

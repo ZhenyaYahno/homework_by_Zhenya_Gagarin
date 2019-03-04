@@ -1,0 +1,19 @@
+.knopka {
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px 5px;
+}
+.txt {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    overflow: hidden;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease; 
+}
+.knopka:hover+ .txt{
+  height: 600px;
+}

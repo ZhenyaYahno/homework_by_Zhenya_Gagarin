@@ -1,0 +1,289 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif; }
+
+main .Intro-text, main .middle .Portfolio, main .middle-down-TEXT, main .down-TEXT {
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: bold; }
+
+main .Intro-text-middle, main .middle .Portfolio-text, main .middle-down-text, main .middle-down-text p, main .down-text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px; }
+
+main .middle .Portfolio, main .middle .Portfolio-text, main .middle-down, main .down-TEXT, main .down-text {
+  color: #575757; }
+
+main .down form .input-flex-left input[type="text"], main .down form .input-flex-right input[type="email"], main .down form .input-down textarea {
+  background-color: white;
+  border-radius: 10px;
+  color: #575757;
+  font-size: 30px;
+  font-weight: 100;
+  padding-left: 10px;
+  border: 1px solid #cacaca;
+  outline: none;
+  cursor: pointer; }
+
+main .down form .input-flex-left input[type="text"]:focus, main .down form .input-flex-right input[type="email"]:focus, main .down form .input-down textarea:focus {
+  font-size: 29px;
+  font-weight: 100;
+  color: #575757;
+  border: 1px solid aquamarine; }
+
+.click-sidebar {
+  display: none;
+  position: absolute;
+  z-index: 1111111;
+  top: 10px;
+  left: 10px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: #aaaaaa;
+  padding: 1px 2px 0px 2px; }
+  .click-sidebar hr {
+    margin: 6px 0px; }
+
+.click-sidebar:hover {
+  width: 45px;
+  height: 45px; }
+  .click-sidebar:hover hr {
+    margin: 9px 0px; }
+
+.sidebar {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 19%;
+  height: 100%;
+  background-color: #222629; }
+  .sidebar .top {
+    width: 100%;
+    height: 20%;
+    padding: 40px 20px 40px 30px; }
+    .sidebar .top img {
+      float: left;
+      width: 55px;
+      height: 55px; }
+    .sidebar .top div {
+      width: 155px;
+      float: right;
+      text-align: right;
+      height: 55px; }
+  .sidebar nav {
+    width: 100%;
+    height: 35%; }
+    .sidebar nav .div {
+      padding: 15px 30px 15px 35px;
+      width: 100%;
+      height: 25%; }
+      .sidebar nav .div .div-left {
+        padding-top: 3px;
+        float: left; }
+      .sidebar nav .div .div-right {
+        float: right;
+        text-align: right;
+        padding-top: 3px;
+        color: #bdbdbd;
+        font-size: 18px;
+        font-weight: 300; }
+    .sidebar nav .div:hover {
+      background-color: #111314; }
+      .sidebar nav .div:hover .div-left {
+        color: #ff5252; }
+      .sidebar nav .div:hover .div-right {
+        color: #ffffff; }
+  .sidebar .bottom {
+    display: flex;
+    bottom: 0%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 290px 20px 20px 20px; }
+    .sidebar .bottom div {
+      color: #6e6e6e;
+      margin: 0 9px; }
+    .sidebar .bottom div:hover {
+      color: white; }
+
+main {
+  width: 81%;
+  float: right; }
+  main .article {
+    width: 100%; }
+  main .Intro {
+    height: 500px;
+    overflow: hidden;
+    background-image: url(./img/louisville-1500x500.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    color: #ffffffda; }
+    main .Intro-text {
+      width: 70%;
+      height: 50%;
+      margin: auto;
+      padding: 120px 60px 0px 60px; }
+    main .Intro-text-middle {
+      width: 70%;
+      height: 10%;
+      margin: auto; }
+    main .Intro-bottom {
+      width: 250px;
+      height: 60px;
+      padding-top: 20px;
+      margin: 30px auto;
+      text-align: center;
+      background-color: rgba(0, 101, 253, 0.904);
+      border-radius: 10px; }
+    main .Intro .Intro-bottom:hover {
+      background-color: #0065fd;
+      box-shadow: 0 5px 5px #919191; }
+  main .middle {
+    background-color: #f5fafa;
+    width: 100%;
+    border-bottom: 1px solid #d0d1d1; }
+    main .middle .Portfolio-flex {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: stretch;
+      justify-content: center; }
+      main .middle .Portfolio-flex .Portfolio-flex-item {
+        width: 370px;
+        height: 909px;
+        color: black;
+        margin-left: 15px; }
+        main .middle .Portfolio-flex .Portfolio-flex-item .Portfolio-flex-item-img1 {
+          width: 100%;
+          height: 50%;
+          margin-bottom: 45px;
+          text-align: center;
+          background-color: white; }
+          main .middle .Portfolio-flex .Portfolio-flex-item .Portfolio-flex-item-img1 img {
+            width: 100%;
+            height: 90%;
+            margin-bottom: 10px;
+            opacity: 0.8; }
+        main .middle .Portfolio-flex .Portfolio-flex-item .Portfolio-flex-item-img2 {
+          width: 100%;
+          height: 45%;
+          text-align: center;
+          background-color: white; }
+          main .middle .Portfolio-flex .Portfolio-flex-item .Portfolio-flex-item-img2 img {
+            width: 100%;
+            height: 89%;
+            margin-bottom: 10px;
+            opacity: 0.8; }
+        main .middle .Portfolio-flex .Portfolio-flex-item .Portfolio-flex-item-img3 {
+          width: 100%;
+          height: 50%;
+          margin-bottom: 45px;
+          text-align: center;
+          background-color: white; }
+          main .middle .Portfolio-flex .Portfolio-flex-item .Portfolio-flex-item-img3 img {
+            width: 100%;
+            height: 90%;
+            margin-bottom: 4px;
+            opacity: 0.9; }
+        main .middle .Portfolio-flex .Portfolio-flex-item .Portfolio-flex-item-img4 {
+          width: 100%;
+          height: 45%;
+          text-align: center;
+          background-color: white; }
+          main .middle .Portfolio-flex .Portfolio-flex-item .Portfolio-flex-item-img4 img {
+            width: 100%;
+            height: 89%;
+            margin-bottom: 10px;
+            opacity: 0.9; }
+        main .middle .Portfolio-flex .Portfolio-flex-item .Portfolio-flex-item-img5 {
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          background-color: white; }
+          main .middle .Portfolio-flex .Portfolio-flex-item .Portfolio-flex-item-img5 img {
+            width: 100%;
+            height: 97%;
+            opacity: 0.9; }
+  main .middle-down {
+    background-color: #edf1f1;
+    width: 100%;
+    border-bottom: 1px solid #c2c2c2; }
+    main .middle-down-TEXT {
+      width: 30%;
+      height: 150px;
+      padding-top: 50px;
+      margin: auto;
+      text-align: center; }
+    main .middle-down-text {
+      width: 70%;
+      margin: auto;
+      text-align: center; }
+      main .middle-down-text img {
+        width: 85%;
+        height: 300px;
+        margin-bottom: 20px; }
+      main .middle-down-text p {
+        height: 130px; }
+  main .down {
+    background-color: #e2e2e2;
+    width: 100%;
+    border-bottom: 1px solid #969696;
+    padding-top: 40px; }
+    main .down-TEXT {
+      margin-bottom: 40px; }
+    main .down-text {
+      width: 70%;
+      margin: auto; }
+    main .down form {
+      width: 70%;
+      margin: auto; }
+      main .down form .input-flex {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; }
+        main .down form .input-flex-left {
+          width: 65%; }
+          main .down form .input-flex-left input[type="text"] {
+            width: 100%;
+            height: 50px; }
+        main .down form .input-flex-right {
+          width: 30%; }
+          main .down form .input-flex-right input[type="email"] {
+            width: 100%;
+            height: 50px; }
+      main .down form .input-down {
+        width: 100%; }
+        main .down form .input-down textarea {
+          padding-top: 5px;
+          width: 100%;
+          height: 200px;
+          color: #575757d3; }
+        main .down form .input-down textarea:focus {
+          color: #575757cc; }
+  main .down-info {
+    width: 100%;
+    background-color: #cecece; }
+    main .down-info-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      main .down-info-flex div {
+        padding: 0 15px;
+        border-right: 1px solid #bdbdbd;
+        text-align: center;
+        color: #979797; }
+
+.down-info .down-info-flex div:last-child {
+  border: none; }
+
+/*# sourceMappingURL=ssas.css.map */

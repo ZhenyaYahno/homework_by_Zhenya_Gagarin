@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./img/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table {
+    color: honeydew;
+    border-radius: 10px;
+    border: 1px solid silver;
+    width: 700px;
+    margin: 25% auto;
+    text-align: center;
+   
+}
+
+td {
+    border-bottom: 1px solid silver; 
+     
+}
+#help {
+    border: 0px;
+}
+

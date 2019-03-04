@@ -1,0 +1,82 @@
+@media (max-width: 1182px) {
+   .d-cont-2{
+       display: none;
+   }
+    
+}
+@media (max-width: 350px) {
+    .downconteinerdown{
+       display: none;
+    }
+     
+ }
+ @media (max-width: 269px) {
+    .toptop{
+        display: none;
+    }
+    
+    .cnopka {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: bisque;
+        border-radius: 10px;
+        margin: 5px ;
+        
+    }
+    .cnopka:hover .cnopka-div {
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100px;
+        background-color: bisque;
+        border-radius: 5px;
+        z-index: 1;
+        
+       
+    }
+ }
+ 
+ @media (max-width: 300px) {
+    
+     .menu {
+         display: none;
+         
+     }
+     .downconteiner-right {
+        display: none;
+ 
+     }
+     
+     .troble{
+         float: none;
+         display: block;
+         margin: auto;
+         
+     }
+     .maker .troble:last-child {
+        margin-right: auto;
+    }
+    .downconteiner-left {
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+    .lastone {
+        
+        margin-left: auto;
+        width: 100%;
+    }
+    .lastone div {
+        margin: auto;
+        float: none;
+        display: inline-block;
+    }
+ }
+ 
+

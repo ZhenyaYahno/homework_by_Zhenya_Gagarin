@@ -1,0 +1,94 @@
+
+.osnova {
+    border: 2px solid red;
+    width: 1000px;
+    height: 1300px;
+    margin: auto;
+   
+}
+.osnova div{
+    border: 2px solid black;
+    margin: 10px;
+    
+}
+.one{
+  width: 980px;
+  height: 230px;
+  
+  
+}
+.two{
+    width: 973px;
+    height: 125px;
+   
+    
+}
+.three{
+    width: 975px;
+    height: 526px;
+   
+   
+}
+.four{
+    width: 975px;
+    height: 350px;     
+}
+.one .div{
+    border: 2px solid blue;
+    width: 283px;
+    height: 188px;
+    padding: 10px;
+    margin: 8px;
+    display: inline-block;
+}
+.div .div2 {
+   
+    height: 73px;
+    padding: 1px;
+    border: 2px solid yellow;
+    
+}
+
+.two .div3 {
+    border: 2px solid blue;
+    width: 220px;
+    height: 103px;
+    margin: 8px;
+    display: inline-block;
+}
+.three .div4 {
+    border: 2px solid blue;
+    width: 577px;
+    height: 484px;
+    margin: 8px;
+    display: inline-block;
+    padding: 10px;
+
+}
+.three .div5{
+    border: 2px solid blue;
+    width: 334px;
+    height: 504px;
+    margin: 8px;
+    display: inline-block;
+}
+.three .div4 .div6 {
+    height: 285px;
+    border: 2px solid yellow;
+}
+.three .div4 .div7{
+    height: 162px;
+    border: 2px solid yellow;
+}
+ .four .div8 {
+    border: 2px solid blue;
+    width: 282px;
+    height: 310px;
+    margin: 8px;
+    display: inline-block;
+    padding: 10px;
+}
+.four .div8 .div9 {
+    height: 135px;
+    border: 2px solid yellow;
+}

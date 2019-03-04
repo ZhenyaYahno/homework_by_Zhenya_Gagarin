@@ -1,0 +1,32 @@
+@keyframes bouncing{
+    0% {
+        transform: rotate(0);
+        width: 20px;
+        height: 20px
+    }
+    25%{
+        
+    }
+    50%{
+        transform: rotate(720deg);
+        color: red;
+        width: 60px;
+        height: 60px;
+       
+    }
+    100% {
+        width: 20px;
+        height: 20px
+        transform: rotate(0);
+    }
+}
+.div{
+         width: 20px;
+       height: 20px;
+                margin: 300px auto;
+                 border: 1px solid black;
+                animation-name: bouncing;
+                animation-duration: 10s;
+                animation-timing-function: linear;
+                animation-direction: alternate;
+}

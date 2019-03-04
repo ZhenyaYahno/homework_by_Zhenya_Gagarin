@@ -1,0 +1,28 @@
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #000;
+    width: 70%;
+    height: 70%;
+}
+.accent {
+    color: gold;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #000;
+    width: 75%;
+    height: 1000px;
+}
+.bimer {
+    color: aqua;
+    font-size: 21px;
+    font-weight: bold;
+    border: 2px solid #000;
+    width: 75%;
+    height: 70%;
+}
+div {
+    margin-left: 10px;
+    margin-top: 10px;
+}

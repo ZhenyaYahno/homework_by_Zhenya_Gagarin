@@ -1,0 +1,41 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+.menu-icon:hover {
+  font-size: 28px;
+  color: darkslategray; }
+
+.conteiner {
+  width: 425px;
+  height: 300px;
+  border: 2px solid black;
+  margin: auto;
+  background-color: grey;
+  overflow: hidden;
+  position: relative; }
+
+.menu-icon {
+  position: relative;
+  top: 0%;
+  left: 0px; }
+
+.mobile-menu {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  left: -320px; }
+  .mobile-menu__link {
+    text-decoration: none;
+    color: #444;
+    border-bottom: 1px solid #cec8c8;
+    width: 80%;
+    text-align: left;
+    padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    .menu {
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+}
+@media (max-width: 410px) {
+    .cnopka {
+        display: block;
+        float: left;
+        width:50px;
+        height: 20px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .menu { 
+        display: none;
+    }
+   .cnopka:hover+ .menu {
+
+       margin-top: 100px;
+       display: flex;
+       justify-content: center;
+        align-items: center;
+   }
+}

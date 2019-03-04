@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.galary-view {
+    width: 200px;
+    height: 200px;
+    
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+    .galary{
+        position: relative;
+        top: 0%;
+        left: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        &__item{
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
+.buttons-nav{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    &__btn {
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 50%;
+
+
+    }
+}

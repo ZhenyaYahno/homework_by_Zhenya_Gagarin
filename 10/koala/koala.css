@@ -1,0 +1,172 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Tahoma; }
+
+.body .code1, .body .code2, .body .code3, .body .code4 {
+  width: 346px;
+  height: 127px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 31px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 30px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.body .body2 {
+  display: none;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 71%;
+  height: 599px;
+  margin-left: 45px;
+  position: absolute;
+  top: 0%;
+  left: 346px; }
+
+.body .body2 .block {
+  display: inline-block;
+  width: 30%;
+  height: 599px;
+  border-radius: 5px; }
+
+.body .body2 .block .up-block {
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.body .body2 .block .down-block {
+  width: 100%;
+  height: 50%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0px; }
+
+.conteiner, .body, .footer {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  position: relative; }
+
+.conteiner .header div, .conteiner .logo div {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 17px; }
+
+.body .body2 .block .down-block .name {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #4040ff; }
+
+.conteiner .logo, .footer .logo {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; }
+
+body {
+  background-color: black; }
+
+.conteiner {
+  height: 100px; }
+  .conteiner .header {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 100px; }
+    .conteiner .header div {
+      background-color: whitesmoke;
+      margin: 0 10px; }
+      .conteiner .header div:last-child {
+        margin: 0 10 0 10px; }
+      .conteiner .header div:hover {
+        background-color: black;
+        width: 99px;
+        height: 49px;
+        color: red; }
+  .conteiner .logo div {
+    padding-top: 10px;
+    font-size: 20px;
+    color: red; }
+    .conteiner .logo div img {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-size: cover; }
+
+.body {
+  height: 598px; }
+  .body .code1 {
+    background-image: url(./img/rrg.jpg); }
+    .body .code1:hover {
+      color: #383838; }
+    .body .code1:hover + .body2 {
+      display: flex; }
+  .body .code2 {
+    background-image: url(./img/dsgsd.jpg); }
+    .body .code2:hover {
+      color: #346e34; }
+    .body .code2:hover + .body2 {
+      display: flex; }
+  .body .code3 {
+    background-image: url(./img/ironman31.jpg); }
+    .body .code3:hover {
+      color: #ff4343; }
+    .body .code3:hover + .body2 {
+      display: flex; }
+  .body .code4 {
+    background-image: url(./img/vbcx.jpg); }
+    .body .code4:hover {
+      color: #ff4229; }
+    .body .code4:hover + .body2 {
+      display: flex; }
+
+.footer {
+  height: 100px; }
+  .footer .logo div {
+    width: 142px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 16px; }
+    .footer .logo div img {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-size: cover; }
+  .footer .titel {
+    display: inline-block;
+    float: right;
+    width: 8%;
+    height: 100%;
+    margin-right: 10px;
+    text-align: center;
+    padding: 10px 0px 0px 0px; }
+
+/*# sourceMappingURL=koala.css.map */
